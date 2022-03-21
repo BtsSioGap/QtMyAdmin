@@ -151,7 +151,7 @@ void MainWindow::on_pushButtonInsertExecut_clicked()
         }
     }
     //separation de la liste
-    QStringList listeElement=resultat.split("  ",QString::SkipEmptyParts);
+    QStringList listeElement=resultat.split("  ",Qt::SkipEmptyParts);
     qDebug()<<listeElement;
 
     //requete insertion base de données
